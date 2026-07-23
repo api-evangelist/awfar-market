@@ -1,7 +1,14 @@
 aid: awfar-market
 name: Awfar Market
-description: Awfar Market is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Awfar is a Cairo- and Riyadh-based digital solutions company (founded 2013) offering an
+  integrated customer engagement and commerce platform. It combines an omnichannel Chat Center
+  with AI agents (WhatsApp, Instagram, Facebook), a cloud Call Center, and a Commerce & Delivery
+  platform for order, inventory, and logistics management within a single interface. Awfar serves
+  more than 2,000 clients across retail, pharmacy, restaurant, e-commerce, tourism, healthcare,
+  education, and real estate, and ships prebuilt integrations for Shopify, Meta, Odoo, Zid, and
+  Salla plus custom API connections. Backed by 500 Global. No public developer portal or OpenAPI
+  specification is published at this time; integration is arranged via the sales and demo channel.
 url: https://raw.githubusercontent.com/api-evangelist/awfar-market/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +16,34 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://solutions.awfar.com/assets/awfar-logo-full-BzOgqsuL.png
 tags:
 - Company
+- CRM
+- Conversational Commerce
+- Customer Engagement
+- Chat Center
+- Call Center
+- Commerce
+- Delivery
+- AI Agents
+- Egypt
+- Saudi Arabia
+- MENA
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,22 @@ maintainers:
 common:
 - type: Website
   url: https://solutions.awfar.com
+- type: About
+  url: https://solutions.awfar.com/about
+- type: Blog
+  url: https://solutions.awfar.com/blog
+- type: SignUp
+  url: https://solutions.awfar.com/book-demo
+- type: TermsOfService
+  url: https://solutions.awfar.com/terms
+- type: PrivacyPolicy
+  url: https://solutions.awfar.com/privacy
+- type: DomainSecurity
+  url: security/awfar-market-domain-security.yml
+- type: LLMsTxt
+  url: llms/awfar-market-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
