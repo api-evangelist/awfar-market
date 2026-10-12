@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/awfar-market/integrations
+- https://n8n.io/integrations/awfar-market/
+- https://composio.dev/toolkits/awfar-market
+- https://monid.ai/tools/awfar-market
+checked:
+- https://composio.dev/toolkits/awfar-market
+- https://monid.ai/tools/awfar-market
+- https://n8n.io/integrations/awfar-market/
+- https://zapier.com/apps/awfar-market/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
